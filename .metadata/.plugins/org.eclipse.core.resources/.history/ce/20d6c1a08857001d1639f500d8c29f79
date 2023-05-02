@@ -1,0 +1,8 @@
+package com.klef.jfsd.springboot.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ScheduleSession extends CrudRepository<ScheduleSession, Integer>
+{
+	
+}

@@ -1,0 +1,14 @@
+package com.klef.jfsd.springboot.service;
+
+import com.klef.jfsd.springboot.model.FacultyMentor;
+
+public class FacultyMentorServiceImpl implements FacultyMentorService
+{
+
+	@Override
+	public FacultyMentor checkfacultylogin(String uname, String pwd) {
+		
+		return null;
+	}
+
+}

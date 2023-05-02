@@ -1,0 +1,16 @@
+package com.klef.jfsd.springboot.model;
+
+import javax.annotation.Generated;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table(name="schedule_table")
+@Entity
+public class ScheduleSession 
+{
+	@Id
+	@Generated
+	private int id;
+	private 
+}

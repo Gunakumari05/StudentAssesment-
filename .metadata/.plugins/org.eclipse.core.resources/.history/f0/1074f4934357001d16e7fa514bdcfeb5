@@ -1,0 +1,14 @@
+package com.klef.jfsd.springboot.service;
+
+import com.klef.jfsd.springboot.model.Trainer;
+
+public class TrainerServiceImpl implements TrainerService
+{
+
+	@Override
+	public Trainer checktrainerlogin(String uname, String pwd) {
+		
+		return null;
+	}
+	
+}

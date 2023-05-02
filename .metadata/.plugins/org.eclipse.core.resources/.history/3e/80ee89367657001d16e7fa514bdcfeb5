@@ -1,0 +1,11 @@
+package com.klef.jfsd.springboot.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Table(name="schedule_table")
+@Entity
+public class ScheduleSession 
+{
+	
+}

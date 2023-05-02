@@ -1,0 +1,28 @@
+package com.klef.jfsd.springboot.model;
+
+
+import java.sql.Timestamp;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="schedule_table")
+@Entity
+public class ScheduleSession 
+{
+	@Id
+	@GeneratedValue
+	private int id;
+	@Column(nullable = false,length = 100)
+	private Timestamp date;
+	@Column(nullable = false,length = 100)
+	private String venue;
+	@Column(nullable = false,length = 100)
+	private String description;
+	@Column(nullable = false,length = 100)
+	private String trainerusername;
+	
+}
